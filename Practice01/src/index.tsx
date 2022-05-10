@@ -1,9 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 
 import App from './app';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('app-root')
-)
+const rootElement = document.getElementById('app');
+if (!rootElement) throw new Error('there is no app element in document');
+const root = ReactDOM.createRoot(rootElement);
+root.render(<App />);
