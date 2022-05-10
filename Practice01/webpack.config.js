@@ -5,6 +5,11 @@ module.exports = {
   // src/index.tsx 파일을 진입점으로 설정
   entry: path.resolve(__dirname, 'src/index.tsx'),
   mode: 'development',
+  resolve: {
+    alias: {
+      '@src': path.resolve(__dirname, 'src')
+    }
+  },
   module: {
     rules: [
       {
