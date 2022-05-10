@@ -3,5 +3,5 @@
 
 ## Index
 1. Setting TypeScript
-2. Setting React
-3. Setting WebPack
+2. Setting WebPack
+3. Setting React
