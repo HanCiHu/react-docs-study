@@ -1,4 +1,5 @@
 import React from 'react';
+import ListComponent from '@src/listComponent';
 
 /*
 
@@ -17,10 +18,14 @@ interface AppProps {
 };
 
 const App = ({ propsString }: AppProps): JSX.Element => {
+  const numArray = [1,2,3,4,5];
   return (
     <div>
-      {'Hello, World!'}
-      {propsString}
+      <div>
+        {'Hello, World!'}
+        {propsString}
+      </div>
+      <ListComponent array={numArray}/>
     </div>
   )
 }
