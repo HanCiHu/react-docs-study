@@ -5,4 +5,4 @@
 - [build typescript & react without create-react-app](https://github.com/HanCiHu/react-docs-study/tree/main/Practice01)
 
 ## Practice 02
-- [add more]()
+- [About React Main Concept](https://github.com/HanCiHu/react-docs-study/tree/main/Practice02)
