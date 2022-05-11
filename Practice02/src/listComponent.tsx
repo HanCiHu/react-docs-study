@@ -5,7 +5,7 @@ interface ListComponentProps{
 }
 
 const ListComponent = ({ array }: ListComponentProps): JSX.Element => {
-	const listItem = array.map((n: number) => <li>{n}</li>);
+	const listItem = array.map((n: number) => <li key={n}>{n}</li>);
 
 	return (<ul>{listItem}</ul>);
 }
