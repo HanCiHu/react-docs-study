@@ -1,9 +1,14 @@
 import React from 'react';
 
-const App = (): JSX.Element => {
+interface AppProps {
+  propsString: string
+};
+
+const App = (props: AppProps): JSX.Element => {
   return (
     <div>
       {'Hello, World!'}
+      {props.propsString}
     </div>
   )
 }
