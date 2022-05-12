@@ -8,4 +8,4 @@
 - [About React Main Concept](https://github.com/HanCiHu/react-docs-study/tree/main/Practice02)
 
 ## Practice 03
-- [Hook 1](https://github.com/HanCiHu/react-docs-study/tree/main/Practice03)
+- [React Hooks API 1](https://github.com/HanCiHu/react-docs-study/tree/main/Practice03)
