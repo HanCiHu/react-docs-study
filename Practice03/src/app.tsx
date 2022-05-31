@@ -5,7 +5,7 @@ const App = (): JSX.Element => {
 
   const addNum = (): void => {
     setNum(num + 1);
-    setNum(num + 1);
+    setNum((n) => n + 1);
   };
 
   return (
