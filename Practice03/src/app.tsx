@@ -1,25 +1,24 @@
 import React, { useEffect, useState } from 'react';
 
 const App = (): JSX.Element => {
-  const [str, setStr] = useState<string>('');
   const [num, setNum] = useState<number>(0);
 
-  const func = async () => {
-    const b = await fetch('https://httpbin.org/get');
-    const c = await b.json();
-    return c;
+  const a = () => {
+    setNum((n) => n + 1);
   }
 
   useEffect(() => {
-    func().then((r) => {
-      const a = JSON.stringify(r);
-      setStr(a);
-    });
-  }, [num]);
+    const strDiv = document.getElementById('strDiv');
+    console.log(num);
+    strDiv?.addEventListener('click', a);
+    return () => {
+      strDiv?.removeEventListener('click',a);
+    }
+  });
 
   return (
     <div>
-      <p>{str}</p>
+      <div id='strDiv'>{"str"}</div>
       <p>{num}</p>
       <button onClick={() => setNum(num + 1)}>숫자 늘리기</button>
     </div>
