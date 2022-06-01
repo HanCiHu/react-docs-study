@@ -4,9 +4,6 @@
 ## Index
 - State Hook
 - Effect Hook
-- Rules of Hooks
-- Custom Hook
-- useReducer
 
 ## more detail Practice
 - [velog](https://velog.io/@hancihu)
