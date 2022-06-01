@@ -1,19 +1,31 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const App = (): JSX.Element => {
-  const [num, setNum] = useState<number>(0);
+  const [str, setStr] = useState<string>('');
 
-  const addNum = (): void => {
-    setNum(num + 1);
-    setNum((n) => n + 1);
-  };
+  const func = async () => {
+    const b = await fetch('https://httpbin.org/get');
+    const c = await b.json();
+    return c;
+  }
+
+  // func().then((r) => {
+  //   const a = JSON.stringify(r);
+  //   setStr(a);
+  // });
+
+  useEffect(() => {
+    func().then((r) => {
+      const a = JSON.stringify(r);
+      setStr(a);
+    });
+  });
 
   return (
     <div>
-      <p>{num}</p>
-      <button onClick={addNum}>숫자 늘리기</button>
+      <p>{str}</p>
     </div>
   );
-}
+};
 
 export default App;
