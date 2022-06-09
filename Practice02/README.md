@@ -1,5 +1,5 @@
 ## Practice02
-- [Main Concepts](https://ko.reactjs.org/docs/hello-world.html)
+- [Main Concepts in React Docs](https://ko.reactjs.org/docs/hello-world.html)
 
 ## Index
 - element vs component
