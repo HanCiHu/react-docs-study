@@ -8,7 +8,7 @@
 - [About React Main Concept](https://github.com/HanCiHu/react-docs-study/tree/main/Practice02)
 
 ## Practice 03
-- [React Hooks API 1](https://github.com/HanCiHu/react-docs-study/tree/main/Practice03)
+- [React Basic Hooks API in React Docs](https://github.com/HanCiHu/react-docs-study/tree/main/Practice03)
 
 ## Practice 04
-- [React Hooks API 2](https://github.com/HanCiHu/react-docs-study/tree/main/Practice04)
+- [React More Detail About Hooks API](https://github.com/HanCiHu/react-docs-study/tree/main/Practice04)
