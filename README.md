@@ -9,3 +9,6 @@
 
 ## Practice 03
 - [React Hooks API 1](https://github.com/HanCiHu/react-docs-study/tree/main/Practice03)
+
+## Practice 04
+- [React Hooks API 2](https://github.com/HanCiHu/react-docs-study/tree/main/Practice04)
