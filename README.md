@@ -11,4 +11,4 @@
 - [React Basic Hooks API in React Docs](https://github.com/HanCiHu/react-docs-study/tree/main/Practice03)
 
 ## Practice 04
-- [React More Detail About Hooks API](https://github.com/HanCiHu/react-docs-study/tree/main/Practice04)
+- [Hooks Rules](https://github.com/HanCiHu/react-docs-study/tree/main/Practice04)
